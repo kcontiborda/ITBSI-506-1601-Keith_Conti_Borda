@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4EFEA15-675F-1E5F-9BA0-75DE91F00E52" name="Time">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:03:25 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date Key" id="F899653F-ED8F-5831-35C6-80C287831F15">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:04:53 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Year" id="AADF7901-1D78-32AC-C80A-68A1BE01A020">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:04:54 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quarter" id="ECC467C9-A2F6-F2BF-E623-E54A9094F695">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:04:54 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Month" id="38720258-8BF9-816E-914B-D59831744F4A">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:04:54 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Day Of The Month" id="C77968E9-A6F2-D04E-47FF-5A91BB96BB48">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:04:54 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Day Of The Week" id="408AD2FB-C3F5-B6B1-A717-298C1C798DEE">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:04:54 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date Value" id="75DD478E-4A50-4102-FBEC-C6EE2E7F6DBE">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:04:54 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13D462FE-213E-6050-D936-A8BE4D382F2D" name="Time PK">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:05:08 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F899653F-ED8F-5831-35C6-80C287831F15</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="ED512E8A-7AAF-D66C-5BEE-AC51B641E05A" name="Time Value">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:08:32 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<newElementsIDs>75DD478E-4A50-4102-FBEC-C6EE2E7F6DBE</newElementsIDs>
+<usedAttributes>
+<attributeRef>75DD478E-4A50-4102-FBEC-C6EE2E7F6DBE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

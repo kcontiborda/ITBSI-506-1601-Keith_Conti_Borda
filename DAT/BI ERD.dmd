@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BI ERD" id="BB5AB4CC-8ECD-3CE1-E4D4-AF152F39F38F" version="3.5">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 08:17:48 UTC</createdTime>
+<ownerDesignName>BI</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BB5AB4CC-8ECD-3CE1-E4D4-AF152F39F38F</designId>
+</OSDM_Design>

@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1948555-B822-77FD-E490-5B51B48B89C0" name="Client">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:19:00 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Client Key" id="6B6E98F7-5692-53DF-5A2F-A54268FB2DAA">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:22:50 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country" id="043C27BE-09A5-A508-C134-FD5B729A1DDF">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:24:33 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region" id="0289BD82-5ADE-553E-306B-4B65C86E9905">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:24:47 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="56FF8B4A-D6F5-11BB-63EC-881EF8B71C57">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:24:58 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gender" id="0AAE9E71-ED84-E133-42C5-AF4C7961C627">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:25:33 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Age" id="526E0956-B08E-813B-1BAD-954CC6C317A0">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:25:33 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="From Date" id="F568ACA5-9311-2CA1-68A3-77403D623727">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-31 13:59:34 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="To Date" id="EB7C193B-7C2D-B4D6-360D-6824FE3D7009">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-31 13:59:51 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Client Description" id="9749BCE1-8D21-ED53-EB08-A712E6D67FF6">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:26:20 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>MAX</dataTypeSize>
+<ownDataTypeParameters>MAX,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Client ID" id="F288493B-8A04-5EB8-7A01-18F88BCFFF04">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:26:39 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCD37663-3693-1995-3FD7-02258B1AD298" name="Client PK">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:22:59 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B6E98F7-5692-53DF-5A2F-A54268FB2DAA</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D9E4843E-3A11-1221-5029-7E4B63507220" name="Client OLTP ID">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:26:53 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<newElementsIDs>F288493B-8A04-5EB8-7A01-18F88BCFFF04,F568ACA5-9311-2CA1-68A3-77403D623727</newElementsIDs>
+<usedAttributes>
+<attributeRef>F288493B-8A04-5EB8-7A01-18F88BCFFF04</attributeRef>
+<attributeRef>F568ACA5-9311-2CA1-68A3-77403D623727</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

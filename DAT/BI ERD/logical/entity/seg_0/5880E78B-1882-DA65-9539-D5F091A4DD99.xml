@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5880E78B-1882-DA65-9539-D5F091A4DD99" name="Orders Fact">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:41:50 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Order Fact Key" id="A4A92754-EF3A-A7E5-5A81-9FF757FD5C63">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:41:58 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Store Cost" id="17A37613-3386-86B5-7EF3-C890311C926A">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:41:58 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Store Price" id="F594411C-2893-83C8-2B3C-17F44CB3D981">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-31 14:00:42 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Units Sold" id="E45D7846-C58C-71AD-00DD-435E45F61892">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:41:58 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Order ID" id="7E5E0299-CE47-86FE-8236-A6477A68DEEE">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:44:09 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Product ID" id="B3B567BD-E85E-1044-F8B4-48E7D3B93AB0">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-31 14:01:31 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Store Key" id="1D0A454A-0D35-700E-85DF-9CA96471C195">
+<createdBy>Keith</createdBy>
+<createdTime>2017-05-17 06:55:59 UTC</createdTime>
+<generatorID>6FEC7B2D-D009-7ED7-24A8-8EFAC9DE65F7</generatorID>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<referedAttribute>E3A09237-14E1-FC82-C366-E97F170FA2AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date Key" id="B33EDF2D-9E28-735D-7CE7-012BB18B4BAF">
+<createdBy>Keith</createdBy>
+<createdTime>2017-05-17 06:55:37 UTC</createdTime>
+<generatorID>B40506A1-2046-B006-0F3F-A16B292C7049</generatorID>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<referedAttribute>F899653F-ED8F-5831-35C6-80C287831F15</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Product Key" id="4F14C6DF-CE07-4CC6-EBDB-2EDFBBCCA817">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-31 13:58:36 UTC</createdTime>
+<generatorID>2ED2C173-8D3F-C405-0C8B-ED5C7ACD93CF</generatorID>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<referedAttribute>71CAB356-2089-C1A8-F064-AF07D61C00E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Client Key" id="A9D2C08B-84DA-67A5-DC80-039B39E59921">
+<createdBy>Keith</createdBy>
+<createdTime>2017-05-17 06:55:54 UTC</createdTime>
+<generatorID>47CB5ED4-2FC3-94A1-3D31-2439DA6B4265</generatorID>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<referedAttribute>6B6E98F7-5692-53DF-5A2F-A54268FB2DAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="017EE311-3D99-3C57-ED81-6B2C6DD4D8BD" name="Order PK">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:43:13 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4A92754-EF3A-A7E5-5A81-9FF757FD5C63</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E6CDA02B-BD4C-B3F8-7B9B-A6DCE49B60D3" name="Order OLTP ID">
+<createdBy>keith</createdBy>
+<createdTime>2017-05-15 10:46:02 UTC</createdTime>
+<ownerDesignName>BI ERD</ownerDesignName>
+<engineerTo>
+<item key="29ACE8BE-5811-0F59-87B4-31AD1B818DDB" value="true"/>
+</engineerTo>
+<newElementsIDs>7E5E0299-CE47-86FE-8236-A6477A68DEEE,3F25A593-74AD-862E-CFAF-2B7860EF6748</newElementsIDs>
+<usedAttributes>
+<attributeRef>7E5E0299-CE47-86FE-8236-A6477A68DEEE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
